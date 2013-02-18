@@ -1,0 +1,18 @@
+{
+	"name": "arachne/coding-style",
+	"description": "Coding style ruleset for PHP CodeSniffer used by Arachne framework.",
+	"type": "library",
+	"keywords": [ "arachne" ],
+	"homepage": "http://enumag.cz",
+	"license": [ "BSD-3-Clause", "GPL-2.0", "GPL-3.0" ],
+	"authors": [
+		{
+			"name": "Jáchym Toušek",
+			"homepage": "http://m33.cz/",
+			"email": "enumag@gmail.com"
+		}
+	],
+	"require": {
+		"squizlabs/php_codesniffer": "*"
+	}
+}
