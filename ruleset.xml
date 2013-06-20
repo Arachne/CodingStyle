@@ -8,6 +8,9 @@
  <rule ref="Squiz.Classes.ValidClassName"/>
  <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
  <rule ref="Generic.NamingConventions.CamelCapsFunctionName"/>
+ <rule ref="Generic.NamingConventions.CamelCapsFunctionName.ScopeNotCamelCaps">
+  <severity>0</severity>
+ </rule>
  <rule ref="PSR2.Files.EndFileNewline"/>
  <rule ref="Zend.Files.ClosingTag"/>
  <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
@@ -37,6 +40,9 @@
  <rule ref="Squiz.Scope.MethodScope"/>
  <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
  <rule ref="PSR2.Methods.MethodDeclaration"/>
+ <rule ref="PSR2.Methods.MethodDeclaration.Underscore">
+  <severity>0</severity>
+ </rule>
  <rule ref="Squiz.Functions.FunctionDeclaration"/>
  <rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
  <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
