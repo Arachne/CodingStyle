@@ -1,62 +1,62 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <ruleset name="Arachne">
- <description>The Arachne coding standard.</description>
- <rule ref="Generic.PHP.DisallowShortOpenTag"/>
- <rule ref="Generic.Files.ByteOrderMark"/>
- <rule ref="PSR1.Files.SideEffects"/>
- <rule ref="PSR1.Classes.ClassDeclaration"/>
- <rule ref="Squiz.Classes.ValidClassName"/>
- <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
- <rule ref="Generic.NamingConventions.CamelCapsFunctionName"/>
- <rule ref="Generic.NamingConventions.CamelCapsFunctionName.ScopeNotCamelCaps"/>
- <rule ref="PSR2.Files.EndFileNewline"/>
- <rule ref="Zend.Files.ClosingTag"/>
- <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
-  <properties>
-   <property name="ignoreBlankLines" value="false"/>
-  </properties>
- </rule>
- <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
- <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
- <rule ref="Generic.PHP.UpperCaseConstant"/>
- <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
- <rule ref="PSR2.Namespaces.UseDeclaration"/>
- <rule ref="Squiz.Classes.ClassDeclaration"/>
- <rule ref="Squiz.Classes.ClassDeclaration.SpaceAfterName">
-  <severity>0</severity>
- </rule>
- <rule ref="Squiz.Classes.ClassDeclaration.EndFileAfterCloseBrace">
-  <severity>0</severity>
- </rule>
- <rule ref="PSR1.Classes.ClassDeclaration.MultipleClasses"/>
- <rule ref="PSR2.Classes.PropertyDeclaration"/>
- <rule ref="Squiz.Scope.MethodScope"/>
- <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
- <rule ref="PSR2.Methods.MethodDeclaration"/>
- <rule ref="PSR2.Methods.MethodDeclaration.Underscore"/>
- <rule ref="Squiz.Functions.FunctionDeclaration"/>
- <rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
- <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
-  <properties>
-   <property name="equalsSpacing" value="1"/>
-  </properties>
- </rule>
- <rule ref="PEAR.Functions.ValidDefaultValue"/>
- <rule ref="Squiz.Functions.MultiLineFunctionDeclaration"/>
- <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
- <rule ref="PEAR.Functions.FunctionCallSignature"/>
- <rule ref="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket">
-  <severity>0</severity>
- </rule>
- <rule ref="PEAR.Functions.FunctionCallSignature.CloseBracketLine">
-  <severity>0</severity>
- </rule>
- <rule ref="Squiz.ControlStructures.ControlSignature"/>
- <rule ref="Squiz.WhiteSpace.ScopeClosingBrace"/>
- <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration"/>
- <rule ref="Squiz.ControlStructures.ForLoopDeclaration"/>
- <rule ref="Squiz.ControlStructures.LowercaseDeclaration"/>
- <rule ref="Generic.ControlStructures.InlineControlStructure"/>
- <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
- <rule ref="PSR2.ControlStructures.SwitchDeclaration"/>
+	<description>The Arachne coding standard.</description>
+	<rule ref="Generic.PHP.DisallowShortOpenTag" />
+	<rule ref="Generic.Files.ByteOrderMark" />
+	<rule ref="PSR1.Files.SideEffects" />
+	<rule ref="PSR1.Classes.ClassDeclaration" />
+	<rule ref="Squiz.Classes.ValidClassName" />
+	<rule ref="Generic.NamingConventions.UpperCaseConstantName" />
+	<rule ref="Generic.NamingConventions.CamelCapsFunctionName" />
+	<rule ref="Generic.NamingConventions.CamelCapsFunctionName.ScopeNotCamelCaps" />
+	<rule ref="PSR2.Files.EndFileNewline" />
+	<rule ref="Zend.Files.ClosingTag" />
+	<rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
+		<properties>
+			<property name="ignoreBlankLines" value="false" />
+		</properties>
+	</rule>
+	<rule ref="Generic.Formatting.DisallowMultipleStatements" />
+	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent" />
+	<rule ref="Generic.PHP.UpperCaseConstant" />
+	<rule ref="PSR2.Namespaces.NamespaceDeclaration" />
+	<rule ref="PSR2.Namespaces.UseDeclaration" />
+	<rule ref="Squiz.Classes.ClassDeclaration" />
+	<rule ref="Squiz.Classes.ClassDeclaration.SpaceAfterName">
+		<severity>0</severity>
+	</rule>
+	<rule ref="Squiz.Classes.ClassDeclaration.EndFileAfterCloseBrace">
+		<severity>0</severity>
+	</rule>
+	<rule ref="PSR1.Classes.ClassDeclaration.MultipleClasses" />
+	<rule ref="PSR2.Classes.PropertyDeclaration" />
+	<rule ref="Squiz.Scope.MethodScope" />
+	<rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing" />
+	<rule ref="PSR2.Methods.MethodDeclaration" />
+	<rule ref="PSR2.Methods.MethodDeclaration.Underscore" />
+	<rule ref="Squiz.Functions.FunctionDeclaration" />
+	<rule ref="Squiz.Functions.LowercaseFunctionKeywords" />
+	<rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
+		<properties>
+			<property name="equalsSpacing" value="1" />
+		</properties>
+	</rule>
+	<rule ref="PEAR.Functions.ValidDefaultValue" />
+	<rule ref="Squiz.Functions.MultiLineFunctionDeclaration" />
+	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
+	<rule ref="PEAR.Functions.FunctionCallSignature" />
+	<rule ref="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket">
+		<severity>0</severity>
+	</rule>
+	<rule ref="PEAR.Functions.FunctionCallSignature.CloseBracketLine">
+		<severity>0</severity>
+	</rule>
+	<rule ref="Squiz.ControlStructures.ControlSignature" />
+	<rule ref="Squiz.WhiteSpace.ScopeClosingBrace" />
+	<rule ref="Squiz.ControlStructures.ForEachLoopDeclaration" />
+	<rule ref="Squiz.ControlStructures.ForLoopDeclaration" />
+	<rule ref="Squiz.ControlStructures.LowercaseDeclaration" />
+	<rule ref="Generic.ControlStructures.InlineControlStructure" />
+	<rule ref="PSR2.ControlStructures.ElseIfDeclaration" />
+	<rule ref="PSR2.ControlStructures.SwitchDeclaration" />
 </ruleset>
