@@ -8,9 +8,7 @@
  <rule ref="Squiz.Classes.ValidClassName"/>
  <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
  <rule ref="Generic.NamingConventions.CamelCapsFunctionName"/>
- <rule ref="Generic.NamingConventions.CamelCapsFunctionName.ScopeNotCamelCaps">
-  <severity>0</severity>
- </rule>
+ <rule ref="Generic.NamingConventions.CamelCapsFunctionName.ScopeNotCamelCaps"/>
  <rule ref="PSR2.Files.EndFileNewline"/>
  <rule ref="Zend.Files.ClosingTag"/>
  <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
@@ -30,19 +28,12 @@
  <rule ref="Squiz.Classes.ClassDeclaration.EndFileAfterCloseBrace">
   <severity>0</severity>
  </rule>
- <rule ref="Squiz.Classes.ClassDeclaration.MultipleClasses">
-  <severity>0</severity>
- </rule>
- <rule ref="PSR1.Classes.ClassDeclaration.MultipleClasses">
-  <severity>0</severity>
- </rule>
+ <rule ref="PSR1.Classes.ClassDeclaration.MultipleClasses"/>
  <rule ref="PSR2.Classes.PropertyDeclaration"/>
  <rule ref="Squiz.Scope.MethodScope"/>
  <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
  <rule ref="PSR2.Methods.MethodDeclaration"/>
- <rule ref="PSR2.Methods.MethodDeclaration.Underscore">
-  <severity>0</severity>
- </rule>
+ <rule ref="PSR2.Methods.MethodDeclaration.Underscore"/>
  <rule ref="Squiz.Functions.FunctionDeclaration"/>
  <rule ref="Squiz.Functions.LowercaseFunctionKeywords"/>
  <rule ref="Squiz.Functions.FunctionDeclarationArgumentSpacing">
@@ -60,11 +51,7 @@
  <rule ref="PEAR.Functions.FunctionCallSignature.CloseBracketLine">
   <severity>0</severity>
  </rule>
- <rule ref="Squiz.ControlStructures.ControlSignature">
-  <properties>
-   <property name="ignoreComments" value="true"/>
-  </properties>
- </rule>
+ <rule ref="Squiz.ControlStructures.ControlSignature"/>
  <rule ref="Squiz.WhiteSpace.ScopeClosingBrace"/>
  <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration"/>
  <rule ref="Squiz.ControlStructures.ForLoopDeclaration"/>
