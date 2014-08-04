@@ -1,6 +1,6 @@
 {
 	"name": "arachne/coding-style",
-	"description": "Coding style ruleset for PHP CodeSniffer used by Arachne framework.",
+	"description": "Coding style ruleset for PHP CodeSniffer used by Arachne.",
 	"type": "library",
 	"keywords": [ "arachne" ],
 	"homepage": "http://enumag.cz",
