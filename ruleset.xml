@@ -48,7 +48,11 @@
 	<rule ref="PEAR.Functions.ValidDefaultValue" />
 	<rule ref="Squiz.Functions.MultiLineFunctionDeclaration" />
 	<rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
-	<rule ref="PEAR.Functions.FunctionCallSignature" />
+	<rule ref="PEAR.Functions.FunctionCallSignature">
+		<properties>
+			<property name="indent" value="1" />
+		</properties>
+	</rule>
 	<rule ref="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket">
 		<severity>0</severity>
 	</rule>
@@ -62,5 +66,9 @@
 	<rule ref="Squiz.ControlStructures.LowercaseDeclaration" />
 	<rule ref="Generic.ControlStructures.InlineControlStructure" />
 	<rule ref="PSR2.ControlStructures.ElseIfDeclaration" />
-	<rule ref="PSR2.ControlStructures.SwitchDeclaration" />
+	<rule ref="PSR2.ControlStructures.SwitchDeclaration">
+		<properties>
+			<property name="indent" value="1" />
+		</properties>
+	</rule>
 </ruleset>
