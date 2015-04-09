@@ -20,7 +20,7 @@
 	</rule>
 	<rule ref="Generic.Formatting.DisallowMultipleStatements" />
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent" />
-	<rule ref="Generic.PHP.UpperCaseConstant" />
+	<rule ref="Generic.PHP.LowerCaseConstant" />
 	<rule ref="PSR2.Namespaces.NamespaceDeclaration" />
 	<rule ref="PSR2.Namespaces.UseDeclaration" />
 	<rule ref="Squiz.Classes.ClassDeclaration" />
